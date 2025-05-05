@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url(MYRIADPRO-REGULAR.OTF)format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Myriad Pro', sans-serif;
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+  padding-top: 30px;
+  justify-content: flex-end;
+  display: block;
+}
+nav{
+  display: flex;
+}
+
+a#ref{
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.logo {
+  background-image: url('images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 230px;
+  height: 160px;
+  margin-left: -460px;
+  display: flex;
+  flex-wrap: wrap
+  
+}
+
+.navnavnav-icons {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  margin: 0px;  
+  padding-left: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+}
+
+button {
+width: 100%;
+height: 110px;
+background-color: rgba(0, 0, 0, 0.515);
+margin-top: -55px;
+cursor: pointer;
+display: block;
+}
+
+h1{
+font-size: 56px;
+color: white;
+font-weight: regular;
+cursor: pointer;
+display: block;
+align-items: center;
+}
+
+p{
+font-size: 24px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+}
+
+.nav-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  gap: 750px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+div{
+  display: flex;
+  gap: 25px;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10px;
+  height: 10px;
+  
+}
+
+div a{
+  background: none;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+  
+section#pestaña{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: rgb(0, 0, 0);
+  background: url(images/pestaña1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+section#pestaña2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 520px;
+  font-size: 22px;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: rgb(255, 255, 255);
+  background: url(images/pestaña2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+
+}
+
+.modelos-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 220px 0;
+  flex-wrap: wrap;
+  font-family: 'Myriad Pro', sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.modelo {
+  text-align: center;
+  width: 370px;
+}
+
+.modelo img {
+  width: 375px;
+  height: 238px;
+  border-radius: 45px;
+  margin-bottom: 0px;
+}
+
+.modelo img {
+  transition: transform 1.0s ease, box-shadow 1.1s ease;
+  cursor: pointer;
+}
+
+.modelo img:hover {
+  transform: scale(0.8);
+  box-shadow: 0 5px 30px rgb(0, 0, 0);
+}
+.modelo p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+}
+.modelo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-blanco {
+  padding: 50px 0;
+
+}
+footer {
+  background-color: #000000;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 45px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 230px;
+}
+.nav1-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: 0;
+  display: flex;
+  background: none;
+  border: none;
+  padding: 0;
+  z-index: 0;
+  outline: none; 
+}
+.nav1-icons {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background: none;
+  border: none;
+  z-index: 0;
+  outline: none;
+}
+
+.carousel-button{
+  color: white;
+  margin: 100px;
+  margin-left: -70px;
+  align-self: center;
+  position: relative;
+  background-color: rgba(0, 255, 255, 0);
+  width: 0%;
+  height: 0%;
+  scale: 500px;
+  object-fit: contain;
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 100px;
+  top: -300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+  cursor: pointer;
+  padding: 0px;
+  
+}
+
+.carousel-button.prev {
+  left: -650px;
+  transform-origin: right center;
+}
+
+
+.carousel-button.next {
+  right: -650px;
+  transform-origin: left center;
+
+}
+
+.carousel-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  
+}
+.carousel-content img {
+  width: 100%;
+  flex-shrink: 0;
+}
+.carousel-button:hover {
+  color: #2fff0069;
+  transform: translateY(-50%) scale(1.2);
+}
+h2{
+  cursor: pointer;
+}
+
+video{
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor{
+  width:100%;
+  height:800px;
+  background-color:pink;
+  margin: 0;
+  padding: 0;
+
+}
+h3{
+  font-size: 56px;
+  color: white;
+  font-weight: regular;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+}
+
+.logofinal {
+  background-image: url('images/logob.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 230px;
+  height: 160px;
+  margin-left: -200px;
+  display: flex;
+  flex-wrap: wrap
+  
+}
+.reproductor{
+  width: 100%;
+  height: 100vh;
+}
+#pestaña9 {
+  position: relative;
+  background: url("images/video2.gif") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+@media (forced-colors: active) {
+  background-color: WindowText;
+  color: Window;
+}
